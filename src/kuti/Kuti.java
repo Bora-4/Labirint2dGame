@@ -1,0 +1,9 @@
+package kuti;
+
+import java.awt.image.BufferedImage;
+
+public class Kuti {
+    public BufferedImage image;
+    public boolean collision = false;
+
+}

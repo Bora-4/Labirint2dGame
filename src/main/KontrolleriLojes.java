@@ -1,6 +1,7 @@
 package main;
 
 import entity.Lojtari;
+import kuti.MenaxhimKutie;
 
 import java.awt.*;
 import javax.swing.JPanel;
@@ -12,21 +13,20 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     final int scale = 3;
 
     public final int tileSize = originalTileSize * scale;
-    final int maxScreenCol = 20;
-    final int maxScreenRow = 15;
-    final int screenWidth = tileSize * maxScreenCol;
-    final int screenHeight = tileSize * maxScreenRow;
+    public final int maxScreenCol = 20;
+    public final int maxScreenRow = 15;
+    public final int screenWidth = tileSize * maxScreenCol;
+    public final int screenHeight = tileSize * maxScreenRow;
 
     //fps
     int fps = 60;
+    MenaxhimKutie kutiM = new MenaxhimKutie(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
+    public KontrolluesCollision kontrollCollision = new KontrolluesCollision(this);
     Lojtari lojtar = new Lojtari(this, keyH);
 
-    //set player's default position
-    int lojtariX = 100;
-    int lojtariY = 100;
-    int lojtariShpejtesia = 4;
+
     public KontrolleriLojes(){
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
         this.setBackground(Color.black);
@@ -80,6 +80,8 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+
+        kutiM.draw(g2);
 
         lojtar.draw(g2);
 

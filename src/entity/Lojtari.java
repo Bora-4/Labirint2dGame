@@ -17,14 +17,20 @@ public class Lojtari extends Entity {
         this.gp = gp;
         this.keyH = keyH;
 
+        solidArea = new Rectangle(10, 20, 40, 40 );
+        solidArea.x = 10;
+        solidArea.y = 20;
+        solidArea.width = 40;
+        solidArea.height = 40;
+
         setDefaultValues();
         getImazhLojtari();
     }
 
     public void setDefaultValues(){
 
-        x = 100;
-        y = 100;
+        x = 60;
+        y = 60;
         shpejtesia = 4;
         drejtimi = "poshte";
 
@@ -48,40 +54,87 @@ public class Lojtari extends Entity {
     }
     public void update(){
 
-        if(keyH.levizLart == true){
-            drejtimi = "lart";
-            y -= shpejtesia;
-        } else if (keyH.levizPoshte == true) {
-            drejtimi = "poshte";
-            y += shpejtesia;
-        } else if (keyH.levizMajtas == true) {
-            drejtimi = "majtas";
-            x -= shpejtesia;
-        } else if (keyH.levizDjathtas == true) {
-            drejtimi = "djathtas";
-            x += shpejtesia;
+        if(keyH.levizLart == true || keyH.levizPoshte == true || keyH.levizDjathtas == true || keyH.levizMajtas == true) {
+            if(keyH.levizLart == true){
+                drejtimi = "lart";
+            } else if (keyH.levizPoshte == true) {
+                drejtimi = "poshte";
+            } else if (keyH.levizMajtas == true) {
+                drejtimi = "majtas";
+            } else if (keyH.levizDjathtas == true) {
+                drejtimi = "djathtas";
+            }
+
+            //kontrolloj nqs ka collision ne kuti
+            collisionOn = false;
+            gp.kontrollCollision.kontrolloKuti(this);
+            //nqs collision eshte false, lojtari mund te levize
+            if(collisionOn == false){
+                switch(drejtimi){
+                    case "lart":
+                        y -= shpejtesia;
+                        break;
+                    case "poshte":
+                        y += shpejtesia;
+                        break;
+                    case "majtas":
+                        x -= shpejtesia;
+                        break;
+                    case "djathtas":
+                        x += shpejtesia;
+                        break;
+                }
+            }
+            spriteCounter++;
+            if(spriteCounter > 12){ //cdo 12 frames ndryshon figura
+                if(spriteNum == 1){
+                    spriteNum = 2;
+                }
+                else if(spriteNum == 2){
+                    spriteNum = 1;
+                }
+                spriteCounter = 0;
+            }
         }
 
     }
     public void draw(Graphics2D g2){
 
-        //g2.setColor(Color.white);
-        //g2.fillRect(x, y, gp.tileSize, gp.tileSize);
 
         BufferedImage image = null;
 
         switch(drejtimi){
             case "lart":
-                image = lart1;
+                if(spriteNum == 1){
+                    image = lart1;
+                }
+                if(spriteNum == 2){
+                    image = lart2;
+                }
                 break;
             case "poshte":
-                image = poshte1;
+                if(spriteNum == 1) {
+                    image = poshte1;
+                }
+                if(spriteNum == 2){
+                    image = poshte2;
+                }
                 break;
             case "majtas":
-                image = majtas1;
+                if(spriteNum == 1) {
+                    image = majtas1;
+                }
+                if(spriteNum == 2){
+                    image = majtas2;
+                }
                 break;
             case "djathtas":
-                image = djathtas1;
+                if(spriteNum == 1) {
+                    image = djathtas1;
+                }
+                if(spriteNum == 2){
+                    image = djathtas2;
+                }
                 break;
         }
 

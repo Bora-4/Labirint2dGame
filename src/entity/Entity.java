@@ -1,5 +1,6 @@
 package entity;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class Entity {
@@ -9,5 +10,11 @@ public class Entity {
 
     public BufferedImage lart1, lart2, poshte1, poshte2, majtas1, majtas2, djathtas1, djathtas2;
     public String drejtimi;
+
+    public int spriteCounter = 0;
+    public int spriteNum = 1;
+    public Rectangle solidArea;
+    public boolean collisionOn = false;
+
 
 }
