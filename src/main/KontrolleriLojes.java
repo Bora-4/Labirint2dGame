@@ -2,6 +2,7 @@ package main;
 
 import entity.Lojtari;
 import kuti.MenaxhimKutie;
+import objekte.Thesaret;
 
 import java.awt.*;
 import javax.swing.JPanel;
@@ -18,13 +19,17 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     public final int screenWidth = tileSize * maxScreenCol;
     public final int screenHeight = tileSize * maxScreenRow;
 
+
+
     //fps
     int fps = 60;
     MenaxhimKutie kutiM = new MenaxhimKutie(this);
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
     public KontrolluesCollision kontrollCollision = new KontrolluesCollision(this);
-    Lojtari lojtar = new Lojtari(this, keyH);
+    public VendosAsetet vendosAsetet = new VendosAsetet(this);
+    public Lojtari lojtar = new Lojtari(this, keyH);
+    public Thesaret obj[] = new Thesaret[10]; // 10 dmth qe ne mund te shfaqim ne ekran 10 objekte ne te njejten kohe
 
 
     public KontrolleriLojes(){
@@ -33,6 +38,10 @@ public class KontrolleriLojes extends JPanel implements Runnable{
         this.setDoubleBuffered(true);
         this.addKeyListener(keyH);
         this.setFocusable(true);
+    }
+
+    public void setupGame(){
+        vendosAsetet.vendosThesar();
     }
 
     public void startGameThread(){
@@ -81,8 +90,17 @@ public class KontrolleriLojes extends JPanel implements Runnable{
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
 
+        //kuti
         kutiM.draw(g2);
 
+        //thesari
+        for(int i = 0; i < obj.length; i++){
+            if(obj[i] != null){
+                obj[i].draw(g2,this);
+            }
+        }
+
+        //lojtari
         lojtar.draw(g2);
 
         g2.dispose();

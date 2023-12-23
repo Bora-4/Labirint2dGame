@@ -61,4 +61,79 @@ public class KontrolluesCollision {
         }
 
     }
+    public int kontrolloThesarin(Entity entity, boolean lojtari) {
+        int index = 299;
+        for (int i = 0; i < gp.obj.length; i++) {
+            if (gp.obj[i] != null) {
+
+                //get entity's solid area position
+                entity.solidArea.x = entity.x + entity.solidArea.x;
+                entity.solidArea.y = entity.y + entity.solidArea.y;
+
+                //get the object's solid area position
+                gp.obj[i].solidArea.x = gp.obj[i].x + gp.obj[i].solidArea.x;
+                gp.obj[i].solidArea.y = gp.obj[i].y + gp.obj[i].solidArea.y;
+
+                switch (entity.drejtimi) {
+                    case "lart":
+                        entity.solidArea.y -= entity.shpejtesia;
+                        if (entity.solidArea.intersects(gp.obj[i].solidArea)) {
+                            if (gp.obj[i].collision == true) {
+                                entity.collisionOn = true;
+                            }
+                            if (lojtari == true) {
+                                index = i;
+                            }
+
+                        }
+                        break;
+
+                    case "poshte":
+                        entity.solidArea.y += entity.shpejtesia;
+                        if (entity.solidArea.intersects(gp.obj[i].solidArea)) {
+                            if (gp.obj[i].collision == true) {
+                                entity.collisionOn = true;
+                            }
+                            if (lojtari == true) {
+                                index = i;
+                            }
+                        }
+                        break;
+
+                    case "majtas":
+                        entity.solidArea.x -= entity.shpejtesia;
+                        if (entity.solidArea.intersects(gp.obj[i].solidArea)) {
+                            if (gp.obj[i].collision == true) {
+                                entity.collisionOn = true;
+                            }
+                            if (lojtari == true) {
+                                index = i;
+                            }
+                        }
+                        break;
+
+                    case "djathtas":
+                        entity.solidArea.x += entity.shpejtesia;
+                        if (entity.solidArea.intersects(gp.obj[i].solidArea)) {
+                            if (gp.obj[i].collision == true) {
+                                entity.collisionOn = true;
+                            }
+                            if (lojtari == true) {
+                                index = i;
+                            }
+                        }
+                        break;
+                }
+                entity.solidArea.x = entity.solidAreaDefaultX;
+                entity.solidArea.y = entity.solidAreaDefaultY;
+                gp.obj[i].solidArea.x = gp.obj[i].solidAreaDefaultX;
+                gp.obj[i].solidArea.y = gp.obj[i].SolidAreaDefaultY;
+
+            }
+
+        }
+
+        return index;
+    }
 }
+

@@ -11,6 +11,9 @@ import java.io.IOException;
 public class Lojtari extends Entity {
     KontrolleriLojes gp;
     KeyHandler keyH;
+    int hasThesari1 = 0;
+    //deklaroj dhe inicializoj me 0 nje variabel te tille si kjo me siper per thesaret qe do beje anasia sprite
+
 
     public Lojtari(KontrolleriLojes gp, KeyHandler keyH){
 
@@ -20,6 +23,8 @@ public class Lojtari extends Entity {
         solidArea = new Rectangle(10, 20, 40, 40 );
         solidArea.x = 10;
         solidArea.y = 20;
+        solidAreaDefaultX = solidArea.x;
+        solidAreaDefaultY = solidArea.y;
         solidArea.width = 40;
         solidArea.height = 40;
 
@@ -29,8 +34,8 @@ public class Lojtari extends Entity {
 
     public void setDefaultValues(){
 
-        x = 60;
-        y = 60;
+        x = gp.tileSize;
+        y = gp.tileSize;
         shpejtesia = 4;
         drejtimi = "poshte";
 
@@ -68,6 +73,10 @@ public class Lojtari extends Entity {
             //kontrolloj nqs ka collision ne kuti
             collisionOn = false;
             gp.kontrollCollision.kontrolloKuti(this);
+
+            //kontrolloj collision thesari
+            int objIndex = gp.kontrollCollision.kontrolloThesarin(this, true);
+            merrThesarin(objIndex);
             //nqs collision eshte false, lojtari mund te levize
             if(collisionOn == false){
                 switch(drejtimi){
@@ -97,6 +106,25 @@ public class Lojtari extends Entity {
             }
         }
 
+    }
+    public void merrThesarin(int i){
+        if(i != 299){
+            gp.obj[i] = null;
+
+            //String emriObjektit = gp.obj[i].name;
+            /*switch(emriObjektit){
+                case "Thesar1":*/
+                    hasThesari1++;
+                    //gp.obj[i] = null;
+                    System.out.println("Thesare te mbledhura:" + hasThesari1);
+                   // break;
+                /*case "Thesari2":
+                    hasThesari2++;
+                    gp.obj[i] = null;
+                    break;*/
+
+            //}
+        }
     }
     public void draw(Graphics2D g2){
 
