@@ -111,19 +111,20 @@ public class Lojtari extends Entity {
         if(i != 299){
             gp.obj[i] = null;
 
-            //String emriObjektit = gp.obj[i].name;
-            /*switch(emriObjektit){
-                case "Thesar1":*/
+            String emriObjektit = gp.obj[i].name;
+            switch(emriObjektit){
+                case "Thesar1":
+                	gp.playSE(0);
                     hasThesari1++;
-                    //gp.obj[i] = null;
+                    gp.obj[i] = null;
                     System.out.println("Thesare te mbledhura:" + hasThesari1);
-                   // break;
+                    break;
                 /*case "Thesari2":
                     hasThesari2++;
                     gp.obj[i] = null;
-                    break;*/
+                    break; */
 
-            //}
+            }
         }
     }
     public void draw(Graphics2D g2){

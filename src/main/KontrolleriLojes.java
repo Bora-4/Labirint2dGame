@@ -23,11 +23,15 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
     //fps
     int fps = 60;
+    
+    //Sistemi
     MenaxhimKutie kutiM = new MenaxhimKutie(this);
     KeyHandler keyH = new KeyHandler();
-    Thread gameThread;
+    Muzike muzike = new Muzike();
     public KontrolluesCollision kontrollCollision = new KontrolluesCollision(this);
     public VendosAsetet vendosAsetet = new VendosAsetet(this);
+    Thread gameThread;
+    
     public Lojtari lojtar = new Lojtari(this, keyH);
     public Thesaret obj[] = new Thesaret[10]; // 10 dmth qe ne mund te shfaqim ne ekran 10 objekte ne te njejten kohe
 
@@ -41,7 +45,10 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     }
 
     public void setupGame(){
+    	
         vendosAsetet.vendosThesar();
+        
+        playMusic(1);
     }
 
     public void startGameThread(){
@@ -105,5 +112,19 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
         g2.dispose();
 
+    }
+    public void playMusic(int i) {
+    	
+    	muzike.setFile(i);
+    	muzike.play();
+    	muzike.loop();
+    }
+    public void stopMusic() {
+    	muzike.stop();
+    }
+    public void playSE(int i) {
+    	
+    	muzike.setFile(i);
+    	muzike.play();
     }
 }
