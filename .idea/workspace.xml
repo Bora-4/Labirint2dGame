@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="shtova hitbox-in dhe bera nje harte text duke perdorur notepad">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/muzika/marrThesarin_sound.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/thesare/thesar_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/VendosAsetet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objekte/Thesaret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objekte/Thesari_1.java" afterDir="false" />
+    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)">
+      <change afterPath="$PROJECT_DIR$/res/fonts/PixeloidMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/KontrolluesCollision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolluesCollision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,46 +42,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Labirint2dGame/res/muzika",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Labirint2dGame/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KontrolleriLojes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Labirint2dGame/res/font&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Labirint2dGame/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\font" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\sound" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\thesare" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\harta" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\kuti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\fonts" />
+      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\sfx" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\kuti" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\src" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\lojtari" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -115,7 +111,33 @@
       <workItem from="1703176411491" duration="157000" />
       <workItem from="1703198751920" duration="11932000" />
       <workItem from="1703211455693" duration="217000" />
-      <workItem from="1703264153716" duration="21559000" />
+      <workItem from="1703264153716" duration="21946000" />
+      <workItem from="1703341428021" duration="1119000" />
+      <workItem from="1703349426772" duration="2311000" />
+      <workItem from="1703366863702" duration="1156000" />
+      <workItem from="1703420479173" duration="105000" />
+      <workItem from="1703438320964" duration="254000" />
+      <workItem from="1703512758806" duration="170000" />
+      <workItem from="1703515181637" duration="627000" />
+      <workItem from="1703703298871" duration="285000" />
+      <workItem from="1703782990925" duration="64000" />
+      <workItem from="1703788395602" duration="334000" />
+      <workItem from="1703788928853" duration="33000" />
+      <workItem from="1703955560481" duration="118000" />
+      <workItem from="1703971128686" duration="90000" />
+      <workItem from="1704212570036" duration="157000" />
+      <workItem from="1704218259571" duration="121000" />
+      <workItem from="1704391932345" duration="1224000" />
+      <workItem from="1704488074433" duration="371000" />
+      <workItem from="1704637444636" duration="2000" />
+      <workItem from="1704637466233" duration="6000" />
+      <workItem from="1704733073411" duration="19000" />
+      <workItem from="1704935998908" duration="611000" />
+      <workItem from="1705271465845" duration="3225000" />
+      <workItem from="1705320378451" duration="4711000" />
+      <workItem from="1705339035417" duration="134000" />
+      <workItem from="1705339821849" duration="573000" />
+      <workItem from="1705341222975" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
@@ -133,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703211523639</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)">
+      <option name="closed" value="true" />
+      <created>1703297024411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703297024411</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +172,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz." />
     <MESSAGE value="shtova hitbox-in dhe bera nje harte text duke perdorur notepad" />
-    <option name="LAST_COMMIT_MESSAGE" value="shtova hitbox-in dhe bera nje harte text duke perdorur notepad" />
+    <MESSAGE value="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)" />
+    <option name="LAST_COMMIT_MESSAGE" value="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

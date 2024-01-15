@@ -39,7 +39,7 @@ public class KontrolluesCollision {
                     entity.collisionOn = true;
                 }
 
-                    break;
+                break;
             case "majtas":
                 entityKolMajtas = (entityMajtasX - entity.shpejtesia)/gp.tileSize;
                 kutiNr1 = gp.kutiM.nrKutiveHarta[entityKolMajtas][entityRreshtiSiper];
@@ -48,7 +48,7 @@ public class KontrolluesCollision {
                     entity.collisionOn = true;
                 }
 
-                    break;
+                break;
             case "djathtas":
                 entityKolDjathtas = (entityDjathtasX + entity.shpejtesia)/gp.tileSize;
                 kutiNr1 = gp.kutiM.nrKutiveHarta[entityKolDjathtas][entityRreshtiSiper];
@@ -57,7 +57,7 @@ public class KontrolluesCollision {
                     entity.collisionOn = true;
                 }
 
-                    break;
+                break;
         }
 
     }
@@ -136,4 +136,3 @@ public class KontrolluesCollision {
         return index;
     }
 }
-
