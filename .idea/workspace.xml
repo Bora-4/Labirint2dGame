@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="implementimi i i=user interface, krijimi i menuse etj">
-      <change afterPath="$PROJECT_DIR$/res/harta/harta1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/harta/harta2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/harta/harta3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/harta/harta4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/harta/harta5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Labirinti.java" afterDir="false" />
+    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GjenerimiLabirintit.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +164,7 @@
       <workItem from="1705414180029" duration="233000" />
       <workItem from="1705415272060" duration="210000" />
       <workItem from="1705415705098" duration="62000" />
-      <workItem from="1705420420813" duration="6023000" />
+      <workItem from="1705420420813" duration="7586000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
@@ -205,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705384096876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
+      <option name="closed" value="true" />
+      <created>1705428236748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705428236748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +229,8 @@
     <MESSAGE value="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)" />
     <MESSAGE value="rregullimi i nje bug" />
     <MESSAGE value="implementimi i i=user interface, krijimi i menuse etj" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementimi i i=user interface, krijimi i menuse etj" />
+    <MESSAGE value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
+    <option name="LAST_COMMIT_MESSAGE" value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
