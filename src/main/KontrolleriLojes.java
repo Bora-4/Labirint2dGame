@@ -50,6 +50,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
         this.setDoubleBuffered(true);
         this.addKeyListener(keyH);
         this.setFocusable(true);
+
     }
 
     public void setupGame(){
@@ -148,7 +149,8 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     	muzike.loop();
     }
     public void stopMusic() {
-    	muzike.stop();
+
+        muzike.stop();
     }
     public void playSE(int i) {
 
