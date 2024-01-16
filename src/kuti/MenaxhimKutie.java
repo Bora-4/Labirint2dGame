@@ -21,8 +21,8 @@ public class MenaxhimKutie {
         kuti = new Kuti[10];
         nrKutiveHarta = new int[gp.maxScreenCol][gp.maxScreenRow];
         getKutiIamge();
-        loadHarta("/harta/harta_test.txt");
-        /*loadRandomHarta("harta/harta1.txt", "harta/harta2.txt", "harta/harta3.txt", "harta/harta4.txt", "harta/harta5.txt", "harta/harta_test.txt");*/
+        loadHarta("/harta/harta1.txt");
+        /*loadRandomHarta("harta/harta1.txt", "harta/harta2.txt", "harta/harta3.txt", "harta/harta4.txt", "harta/harta5.txt");*/
 
     }
 

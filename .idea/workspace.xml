@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/harta/harta_test.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +169,7 @@
       <workItem from="1705414180029" duration="233000" />
       <workItem from="1705415272060" duration="210000" />
       <workItem from="1705415705098" duration="62000" />
-      <workItem from="1705420420813" duration="7586000" />
+      <workItem from="1705420420813" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
@@ -206,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705428236748</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
+      <option name="closed" value="true" />
+      <created>1705429705792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705429705792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
