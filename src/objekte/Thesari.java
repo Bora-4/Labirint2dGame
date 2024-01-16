@@ -3,13 +3,13 @@ package objekte;
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
-public class Thesari_1 extends Thesaret{
+public class Thesari extends SuperObject {
 
-    public Thesari_1(){
+    public Thesari(){
 
         name ="Thesari";
         try{
-            image = ImageIO.read(getClass().getResourceAsStream("/thesare/thesari.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/objektet/thesari.png"));
 
         }catch(IOException e){
             e.printStackTrace();

@@ -2,7 +2,7 @@ package main;
 
 import entity.Lojtari;
 import kuti.MenaxhimKutie;
-import objekte.Thesaret;
+import objekte.SuperObject;
 
 import java.awt.*;
 import javax.swing.JPanel;
@@ -23,17 +23,25 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
     //fps
     int fps = 60;
-    
+
     //Sistemi
     MenaxhimKutie kutiM = new MenaxhimKutie(this);
-    KeyHandler keyH = new KeyHandler();
+    KeyHandler keyH = new KeyHandler(this);
     Muzike muzike = new Muzike();
     public KontrolluesCollision kontrollCollision = new KontrolluesCollision(this);
     public VendosAsetet vendosAsetet = new VendosAsetet(this);
+    public UserInterface userInterface = new UserInterface(this);
     Thread gameThread;
-    
+
+    //lojatari dhe objektet
     public Lojtari lojtar = new Lojtari(this, keyH);
-    public Thesaret obj[] = new Thesaret[10]; // 10 dmth qe ne mund te shfaqim ne ekran 10 objekte ne te njejten kohe
+    public SuperObject obj[] = new SuperObject[10]; // 10 dmth qe ne mund te shfaqim ne ekran 10 objekte ne te njejten kohe
+
+    //gjendja e lojes
+    public int gameState;
+    public final int titleState = 0;
+    public final int playState = 1;
+    public final int pauseState = 2;
 
 
     public KontrolleriLojes(){
@@ -45,10 +53,12 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     }
 
     public void setupGame(){
-    	
-        vendosAsetet.vendosThesar();
-        
+
+        vendosAsetet.setObjekte();
+
         playMusic(1);
+        gameState = titleState;
+
     }
 
     public void startGameThread(){
@@ -88,7 +98,12 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
     public void update(){
 
-       lojtar.update();
+        if(gameState == playState){
+            lojtar.update();
+        }
+        if(gameState == pauseState){
+            //asgje
+        }
 
     }
 
@@ -96,25 +111,38 @@ public class KontrolleriLojes extends JPanel implements Runnable{
 
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
+        //titulli i ekranit
+        if(gameState == titleState){
+            userInterface.draw(g2);
 
-        //kuti
-        kutiM.draw(g2);
+        }
+        //others
+        else{
+            //kuti
+            kutiM.draw(g2);
 
-        //thesari
-        for(int i = 0; i < obj.length; i++){
-            if(obj[i] != null){
-                obj[i].draw(g2,this);
+            //objektet
+            for(int i = 0; i < obj.length; i++){
+                if(obj[i] != null){
+                    obj[i].draw(g2,this);
+                }
             }
+
+            //lojtari
+            lojtar.draw(g2);
+
+            //user interface
+            userInterface.draw(g2);
+
         }
 
-        //lojtari
-        lojtar.draw(g2);
+
 
         g2.dispose();
 
     }
     public void playMusic(int i) {
-    	
+
     	muzike.setFile(i);
     	muzike.play();
     	muzike.loop();
@@ -123,7 +151,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     	muzike.stop();
     }
     public void playSE(int i) {
-    	
+
     	muzike.setFile(i);
     	muzike.play();
     }

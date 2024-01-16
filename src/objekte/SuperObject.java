@@ -6,7 +6,7 @@ import java.awt.Rectangle;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-public class Thesaret {
+public class SuperObject {
     public BufferedImage image;
     public String name;
     public boolean collision = false;

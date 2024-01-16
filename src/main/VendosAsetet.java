@@ -1,6 +1,6 @@
 package main;
 
-import objekte.Thesari_1;
+import objekte.Thesari;
 
 
 public class VendosAsetet {
@@ -10,14 +10,18 @@ public class VendosAsetet {
         this.gp = gp;
     }
 
-    public void vendosThesar(){
+    public void setObjekte(){
 
-        gp.obj[0] = new Thesari_1();
+        gp.obj[0] = new Thesari();
         gp.obj[0].x = 18 * gp.tileSize;
         gp.obj[0].y = 12 * gp.tileSize;
 
-        gp.obj[1] = new Thesari_1();
+        gp.obj[1] = new Thesari();
         gp.obj[1].x = 5 * gp.tileSize;
         gp.obj[1].y = 13 * gp.tileSize;
+//Kur implementoj fundin e lojes me del nje bug. muzika nuk niset dhe as fundi png nuk eshte displayed
+//        gp.obj[2] = new Fundi();
+//        gp.obj[2].x = 17 * gp.tileSize;
+//        gp.obj[2].y = 13 * gp.tileSize;
     }
 }

@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="rregullimi i nje bug">
-      <change afterPath="$PROJECT_DIR$/res/fonts/PixeloidMono.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/thesare/thesar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/thesare/thesari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/background/nata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/fonts/PublicPixel-z84yD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/objektet/moon_fundi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drejtimi/Drejtimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/GjenerimiLabirintit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objekte/Fundi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/thesare/thesar_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/fonts/PixeloidMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/thesare/thesar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/thesare/thesari.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/objektet/thesari.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/KontrolluesCollision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolluesCollision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objekte/Thesaret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Thesaret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objekte/Thesari_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Thesari_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/VendosAsetet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VendosAsetet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objekte/Thesaret.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/SuperObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objekte/Thesari_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Thesari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/KontrolluesCollision.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -62,7 +66,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Labirint2dGame",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Labirint2dGame/res/objektet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,19 +81,22 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\objektet" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\thesare" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\font" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\sound" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\harta" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\background" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\fonts" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\sfx" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\kuti" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +105,7 @@
       <module name="Labirint2dGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="drejtimi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +173,7 @@
       <workItem from="1705341222975" duration="1272000" />
       <workItem from="1705344729905" duration="786000" />
       <workItem from="1705346772975" duration="10000" />
-      <workItem from="1705357101996" duration="3863000" />
+      <workItem from="1705357101996" duration="25138000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
