@@ -122,6 +122,7 @@ public class Lojtari extends Entity {
                         gp.stopMusic();
                         gp.playSE(2);
                     }
+                    gp.obj[i] = null;
                     break;
             }
         }
