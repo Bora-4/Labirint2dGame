@@ -36,9 +36,11 @@ public class Labirinti {
 
 
     }
-    public int getLabirinti() {
+
+    public int getLabirintiIndex() {
         return labirinti;
     }
+
 
 
     public void getKutiIamge(){

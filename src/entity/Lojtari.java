@@ -118,7 +118,7 @@ public class Lojtari extends Entity {
                     gp.obj[i] = null;
                     break;
                 case "Fundi":
-                    if(hasThesar == 2) {
+                    if(hasThesar == 5) {
                         gp.stopMusic();
                         gp.playSE(2);
                     }

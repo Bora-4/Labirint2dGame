@@ -16,7 +16,7 @@ public class VendosAsetet {
     }
 
     public void setObjekte(){
-        int labirintiZgjedhur = labirinti.getLabirinti();
+        int labirintiZgjedhur = labirinti.getLabirintiIndex();
 
         if(labirintiZgjedhur == 0) {
             gp.obj[0] = new Thesari();
@@ -50,8 +50,8 @@ public class VendosAsetet {
             gp.obj[1].y = 13 * gp.tileSize;
 
             gp.obj[2] = new Thesari();
-            gp.obj[2].x = 3 * gp.tileSize;
-            gp.obj[2].y = 6 * gp.tileSize;
+            gp.obj[2].x = 9 * gp.tileSize;
+            gp.obj[2].y = 13 * gp.tileSize;
 
             gp.obj[3] = new Thesari();
             gp.obj[3].x = 6 * gp.tileSize;
@@ -59,7 +59,7 @@ public class VendosAsetet {
 
             gp.obj[4] = new Thesari();
             gp.obj[4].x = 15 * gp.tileSize;
-            gp.obj[4].y = 1 * gp.tileSize;
+            gp.obj[4].y = 3 * gp.tileSize;
 
         } else if (labirintiZgjedhur == 2) {
             gp.obj[0] = new Thesari();
@@ -96,8 +96,8 @@ public class VendosAsetet {
             gp.obj[2].y = 5 * gp.tileSize;
 
             gp.obj[3] = new Thesari();
-            gp.obj[3].x = 9 * gp.tileSize;
-            gp.obj[3].y = 5 * gp.tileSize;
+            gp.obj[3].x = 5 * gp.tileSize;
+            gp.obj[3].y = 9 * gp.tileSize;
 
             gp.obj[4] = new Thesari();
             gp.obj[4].x = 14 * gp.tileSize;
