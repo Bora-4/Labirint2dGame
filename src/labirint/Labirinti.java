@@ -3,7 +3,7 @@ package labirint;
 import main.KontrolleriLojes;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
+import java.awt.Graphics2D;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,12 +26,12 @@ public class Labirinti {
         String[] labirintiFiles = new String[]{"/harta/harta1.txt", "/harta/harta2.txt", "/harta/harta3.txt", "/harta/harta4.txt", "/harta/harta5.txt"};
 
         Random random = new Random();
-        indeksi = random.nextInt(5);
-        gjeneroLabirint(labirintiFiles[indeksi]);
+        this.indeksi = random.nextInt(5);
+        gjeneroLabirint(labirintiFiles[this.indeksi]);
     }
 
     public int getLabirintiIndex() {
-        return indeksi;
+        return this.indeksi;
     }
 
 

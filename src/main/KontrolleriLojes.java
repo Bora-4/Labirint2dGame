@@ -117,7 +117,6 @@ public class KontrolleriLojes extends JPanel implements Runnable{
             userInterface.draw(g2);
 
         }
-        //others
         else{
             //kuti
             kutiM.draw(g2);

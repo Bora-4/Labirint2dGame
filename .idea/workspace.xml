@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="shtova 3 thesare te tjera dhe bera labirintin random dhe ne baze te labirintit gjenerohen edhe thesaret">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/labirint/Labirinti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labirint/Labirinti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +168,7 @@
       <workItem from="1705415705098" duration="62000" />
       <workItem from="1705420420813" duration="10663000" />
       <workItem from="1705481937874" duration="660000" />
-      <workItem from="1705483144680" duration="358000" />
+      <workItem from="1705483144680" duration="5098000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
@@ -247,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705461485904</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="shtova 3 thesare te tjera dhe bera labirintin random dhe ne baze te labirintit gjenerohen edhe thesaret">
+      <option name="closed" value="true" />
+      <created>1705483929988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705483929988</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
