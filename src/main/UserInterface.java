@@ -1,6 +1,7 @@
 package main;
 
 import objekte.Thesari;
+import objekte.Fundi;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

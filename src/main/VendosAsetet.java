@@ -1,6 +1,7 @@
 package main;
 
 import objekte.Thesari;
+import objekte.Fundi;
 
 
 public class VendosAsetet {
@@ -20,8 +21,8 @@ public class VendosAsetet {
         gp.obj[1].x = 5 * gp.tileSize;
         gp.obj[1].y = 13 * gp.tileSize;
 //Kur implementoj fundin e lojes me del nje bug. muzika nuk niset dhe as fundi png nuk eshte displayed
-//        gp.obj[2] = new Fundi();
-//        gp.obj[2].x = 17 * gp.tileSize;
-//        gp.obj[2].y = 13 * gp.tileSize;
+        gp.obj[2] = new Fundi();
+        gp.obj[2].x = 17 * gp.tileSize;
+        gp.obj[2].y = 13 * gp.tileSize;
     }
 }
