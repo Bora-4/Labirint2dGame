@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
-      <change afterPath="$PROJECT_DIR$/res/muzike/MuzikeEndPage.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="shtova muziken kur mbaron loja">
       <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Muzike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Muzike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/VendosAsetet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VendosAsetet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objekte/Fundi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Fundi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705429705792</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="shtova muziken kur mbaron loja">
+      <option name="closed" value="true" />
+      <created>1705451477546</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705451477546</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,12 +239,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz." />
-    <MESSAGE value="shtova hitbox-in dhe bera nje harte text duke perdorur notepad" />
     <MESSAGE value="shtova klasen thesare dhe bera qe avatari t'i mbledhi. (thesari eshte vetem tst se do zv me spritet e anasias)" />
     <MESSAGE value="rregullimi i nje bug" />
     <MESSAGE value="implementimi i i=user interface, krijimi i menuse etj" />
     <MESSAGE value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
-    <option name="LAST_COMMIT_MESSAGE" value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
+    <MESSAGE value="shtova hitbox-in dhe bera nje harte text duke perdorur notepad" />
+    <MESSAGE value="shtova muziken kur mbaron loja" />
+    <option name="LAST_COMMIT_MESSAGE" value="shtova muziken kur mbaron loja" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
