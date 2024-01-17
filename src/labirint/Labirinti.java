@@ -8,7 +8,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Labirinti {
@@ -16,29 +15,23 @@ public class Labirinti {
     KontrolleriLojes gp;
 
     public int nrKutiveHarta[][];
-    public int labirinti;
+    public int indeksi;
 
-    public Labirinti(KontrolleriLojes gp){
+    public Labirinti(KontrolleriLojes gp) {
         this.gp = gp;
 
         kuti = new Kuti[10];
         nrKutiveHarta = new int[gp.maxScreenCol][gp.maxScreenRow];
         getKutiIamge();
-        ArrayList <String> harta = new ArrayList<>();
-        harta.add("/harta/harta1.txt");
-        harta.add("/harta/harta2.txt");
-        harta.add("/harta/harta3.txt");
-        harta.add("/harta/harta4.txt");
-        harta.add("/harta/harta5.txt");
+        String[] labirintiFiles = new String[]{"/harta/harta1.txt", "/harta/harta2.txt", "/harta/harta3.txt", "/harta/harta4.txt", "/harta/harta5.txt"};
+
         Random random = new Random();
-        labirinti = random.nextInt(5);
-        gjeneroLabirint(harta.get(labirinti));
-
-
+        indeksi = random.nextInt(5);
+        gjeneroLabirint(labirintiFiles[indeksi]);
     }
 
     public int getLabirintiIndex() {
-        return labirinti;
+        return indeksi;
     }
 
 
