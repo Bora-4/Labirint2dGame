@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="rregullimi i hartave unike">
+    <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
+      <change afterPath="$PROJECT_DIR$/res/muzike/MuzikeEndPage.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Muzike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Muzike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/VendosAsetet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VendosAsetet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/objekte/Fundi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Fundi.java" afterDir="false" />
@@ -40,44 +44,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.KontrolleriLojes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Labirint2dGame/res/harta&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Labirint2dGame/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.KontrolleriLojes.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Labirint2dGame/res/muzike",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Labirint2dGame/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Labirint2dGame\res\muzike" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\harta" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\objektet" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\thesare" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\font" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\background" />
@@ -165,10 +169,7 @@
       <workItem from="1705414180029" duration="233000" />
       <workItem from="1705415272060" duration="210000" />
       <workItem from="1705415705098" duration="62000" />
-      <workItem from="1705420420813" duration="10717000" />
-      <workItem from="1705432787855" duration="43000" />
-      <workItem from="1705439572835" duration="451000" />
-      <workItem from="1705449838346" duration="1440000" />
+      <workItem from="1705420420813" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="Swei tani kam shtuar funksionalitetin ku sipas imput-it a, s, w, d, avatari leviz.">
       <option name="closed" value="true" />
@@ -218,15 +219,7 @@
       <option name="project" value="LOCAL" />
       <updated>1705429705792</updated>
     </task>
-    <task id="LOCAL-00007" summary="rregullimi i hartave unike">
-      <option name="closed" value="true" />
-      <created>1705432698423</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705432698423</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,8 +243,7 @@
     <MESSAGE value="rregullimi i nje bug" />
     <MESSAGE value="implementimi i i=user interface, krijimi i menuse etj" />
     <MESSAGE value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
-    <MESSAGE value="rregullimi i hartave unike" />
-    <option name="LAST_COMMIT_MESSAGE" value="rregullimi i hartave unike" />
+    <option name="LAST_COMMIT_MESSAGE" value="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

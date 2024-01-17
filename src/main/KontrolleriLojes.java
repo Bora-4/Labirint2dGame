@@ -18,7 +18,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     public final int maxScreenRow = 15;
     public final int screenWidth = tileSize * maxScreenCol;
     public final int screenHeight = tileSize * maxScreenRow;
-
+//    public boolean lojaMbaroi;
 
 
     //fps
@@ -28,6 +28,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     MenaxhimKutie kutiM = new MenaxhimKutie(this);
     KeyHandler keyH = new KeyHandler(this);
     Muzike muzike = new Muzike();
+    Muzike efektZanor = new Muzike();
     public KontrolluesCollision kontrollCollision = new KontrolluesCollision(this);
     public VendosAsetet vendosAsetet = new VendosAsetet(this);
     public UserInterface userInterface = new UserInterface(this);
@@ -152,7 +153,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     }
     public void playSE(int i) {
 
-        muzike.setFile(i);
-        muzike.play();
+        efektZanor.setFile(i);
+        efektZanor.play();
     }
 }
