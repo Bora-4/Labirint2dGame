@@ -8,12 +8,15 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Random;
 
 public class Labirinti {
     public Kuti[] kuti;
     KontrolleriLojes gp;
 
     public int nrKutiveHarta[][];
+    public int labirinti;
 
     public Labirinti(KontrolleriLojes gp){
         this.gp = gp;
@@ -21,10 +24,22 @@ public class Labirinti {
         kuti = new Kuti[10];
         nrKutiveHarta = new int[gp.maxScreenCol][gp.maxScreenRow];
         getKutiIamge();
-        gjeneroLabirint("/harta/harta1.txt");
-        /*loadRandomHarta("harta/harta1.txt", "harta/harta2.txt", "harta/harta3.txt", "harta/harta4.txt", "harta/harta5.txt");*/
+        ArrayList <String> harta = new ArrayList<>();
+        harta.add("/harta/harta1.txt");
+        harta.add("/harta/harta2.txt");
+        harta.add("/harta/harta3.txt");
+        harta.add("/harta/harta4.txt");
+        harta.add("/harta/harta5.txt");
+        Random random = new Random();
+        labirinti = random.nextInt(5);
+        gjeneroLabirint(harta.get(labirinti));
+
 
     }
+    public int getLabirinti() {
+        return labirinti;
+    }
+
 
     public void getKutiIamge(){
         try{
