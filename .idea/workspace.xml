@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd5aab3-d4e8-4fcf-a788-965e2b0390fa" name="Changes" comment="kam shtuar 5 harta te tjera me .txt dhe me chat gpt kam modifikuar kodin qe njera nga hartat te gjenerohet ne random">
+      <change afterPath="$PROJECT_DIR$/res/muzike/MuzikeEndPage.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/harta/harta5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/harta/harta_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kuti/MenaxhimKutie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Lojtari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Lojtari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KontrolleriLojes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Muzike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Muzike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/VendosAsetet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/VendosAsetet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objekte/Fundi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objekte/Fundi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Labirint2dGame/res/harta",
+    "last_opened_file_path": "C:/Users/USER/Labirint2dGame/res/muzike",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,11 +77,11 @@
       <recent name="main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Labirint2dGame\res\muzike" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\harta" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\objektet" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\thesare" />
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\font" />
-      <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\muzika" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Labirint2dGame\res\background" />

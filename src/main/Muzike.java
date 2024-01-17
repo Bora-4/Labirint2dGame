@@ -16,6 +16,7 @@ public class Muzike {
 
 		muzikeURL[0] = getClass().getResource("/muzike/MbledhThesaret.wav");
 		muzikeURL[1] = getClass().getResource("/muzike/MuzikeBackgroundi.wav");
+		muzikeURL[2] = getClass().getResource("/muzike/MuzikeEndPage.wav");
 		
 	}
 	

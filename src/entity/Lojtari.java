@@ -116,9 +116,13 @@ public class Lojtari extends Entity {
                     gp.playSE(0);
                     hasThesar++;
                     gp.obj[i] = null;
-                    System.out.println("Thesare te mbledhura:" + hasThesar);
                     break;
-
+                case "Fundi":
+                    if(hasThesar == 2) {
+                        gp.stopMusic();
+                        gp.playSE(2);
+                    }
+                    break;
             }
         }
     }

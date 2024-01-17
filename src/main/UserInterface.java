@@ -15,6 +15,7 @@ public class UserInterface {
     BufferedImage imazhThesari;
     BufferedImage backgroundImage; // Added for the background image
     public int nrKomande = 0;
+    public boolean lojaMbaroi = false;
     public UserInterface(KontrolleriLojes gp) {
         this.gp = gp;
         cascadia = new Font("Cascadia Mono", Font.PLAIN, 40);
@@ -23,17 +24,39 @@ public class UserInterface {
 
         // Load the background image
         try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\User\\IdeaProjects\\Labirint2dGame\\res\\background\\nata.jpg"));
+            backgroundImage = ImageIO.read(new File("C:\\Users\\USER\\Labirint2dGame\\res\\background\\nata.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public void draw(Graphics2D g2) {
+
+//        if(lojaMbaroi == true) {
+//
+//            g2.setFont(cascadia);
+//            g2.setColor(Color.ORANGE);
+//
+//            String teksti;
+//            int gjatesiaTekstit;
+//            int x;
+//            int y;
+//
+//            teksti = "FITUAT!";
+//            gjatesiaTekstit = (int)g2.getFontMetrics().getStringBounds(teksti, g2).getWidth(); //na jep gjatesine e tekstit
+//
+//            x = gp.screenWidth/2 - gjatesiaTekstit/2;
+//            y = gp.screenHeight/2 - (gp.tileSize*3);
+//            g2.drawString(teksti, x, y);
+//
+//            gp.gameThread = null;
+//
+//        }
+
         g2.setFont(cascadia);
         g2.setColor(Color.ORANGE);
         g2.drawImage(imazhThesari, 5, 1, gp.tileSize, gp.tileSize, null);
-        g2.drawString(": " + gp.lojtar.hasThesar, 5 + gp.tileSize, 5 + gp.tileSize / 2);
+        g2.drawString(": " + gp.lojtar.hasThesar, 5 + gp.tileSize, 14 + gp.tileSize / 2);
 
         this.g2 = g2;
         //title state
