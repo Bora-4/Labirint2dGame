@@ -25,7 +25,7 @@ public class UserInterface {
 
         // Load the background image
         try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\USER\\Labirint2dGame\\res\\background\\nata.jpg"));
+            backgroundImage = ImageIO.read(new File("C:\\Users\\User\\IdeaProjects\\Labirint2dGame\\res\\background\\nata.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

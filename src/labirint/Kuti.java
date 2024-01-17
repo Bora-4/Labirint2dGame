@@ -1,4 +1,4 @@
-package kuti;
+package labirint;
 
 import java.awt.image.BufferedImage;
 

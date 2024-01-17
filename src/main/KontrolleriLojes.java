@@ -1,7 +1,7 @@
 package main;
 
 import entity.Lojtari;
-import kuti.MenaxhimKutie;
+import labirint.Labirinti;
 import objekte.SuperObject;
 
 import java.awt.*;
@@ -25,7 +25,7 @@ public class KontrolleriLojes extends JPanel implements Runnable{
     int fps = 60;
 
     //Sistemi
-    MenaxhimKutie kutiM = new MenaxhimKutie(this);
+    Labirinti kutiM = new Labirinti(this);
     KeyHandler keyH = new KeyHandler(this);
     Muzike muzike = new Muzike();
     Muzike efektZanor = new Muzike();
