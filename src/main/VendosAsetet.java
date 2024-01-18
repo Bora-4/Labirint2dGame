@@ -1,14 +1,13 @@
 package main;
 
+import main.KontrolleriLojes;
 import objekte.Fundi;
 import objekte.Thesari;
 import labirint.Labirinti;
 
-
 public class VendosAsetet {
     KontrolleriLojes gp;
     Labirinti labirinti;
-
 
     public VendosAsetet(KontrolleriLojes gp){
         this.gp = gp;
@@ -38,7 +37,6 @@ public class VendosAsetet {
             gp.obj[4] = new Thesari();
             gp.obj[4].x = 7 * gp.tileSize;
             gp.obj[4].y = 1 * gp.tileSize;
-
 
         } else if (labirintiZgjedhur == 1) {
             gp.obj[0] = new Thesari();
@@ -82,7 +80,7 @@ public class VendosAsetet {
             gp.obj[4].x = 18 * gp.tileSize;
             gp.obj[4].y = 5 * gp.tileSize;
 
-        }else if (labirintiZgjedhur == 3) {
+        } else if (labirintiZgjedhur == 3) {
             gp.obj[0] = new Thesari();
             gp.obj[0].x = 2 * gp.tileSize;
             gp.obj[0].y = 3 * gp.tileSize;
@@ -103,7 +101,7 @@ public class VendosAsetet {
             gp.obj[4].x = 14 * gp.tileSize;
             gp.obj[4].y = 13 * gp.tileSize;
 
-        }else if (labirintiZgjedhur == 4) {
+        } else if (labirintiZgjedhur == 4) {
             gp.obj[0] = new Thesari();
             gp.obj[0].x = 1 * gp.tileSize;
             gp.obj[0].y = 10 * gp.tileSize;
@@ -123,8 +121,8 @@ public class VendosAsetet {
             gp.obj[4] = new Thesari();
             gp.obj[4].x = 11 * gp.tileSize;
             gp.obj[4].y = 7 * gp.tileSize;
-
         }
+
         gp.obj[5] = new Fundi();
         gp.obj[5].x = 18 * gp.tileSize;
         gp.obj[5].y = 13 * gp.tileSize;
